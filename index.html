@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Páginas de Gatitos</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container "> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand" href="index.html"><span class="color-highlight">G</span>atitos</a>
+      <div class="nav-collapse">
+        //<ul class="nav pull-right">
+          <li class="active"><a href="index.html">FUNDACION</a></li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="portfolio.html">Quienes Somos</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+          <li><a href="about.html">Hate Bunnys</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container ">
+  <div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="item active"> <img src="img/featured/1.jpg" alt="">
+        <div class="carousel-caption">
+          <h4>Un Gatito</h4>
+          <p>Este Gatito es muy bonito.</p>
+        </div>
+      </div>
+      <div class="item "> <img src="img/featured/2.jpg" alt="">
+        <div class="carousel-caption">
+          <h4>Otro Gatito</h4>
+          <p>Este otro tambien es bonito.</p>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><img src="img/arrow.png" alt=""></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><img src="img/arrow2.png" alt=""></a> </div>
+  <hr>
+  <div class="row">
+    <div class="col-xs-9 col-sm-8 col-md-6 col-lg-10">
+      <h3>Detalles de los gatitos</h3>
+      <blockquote>TODOS LOS GATITOS DEL MUNDO SON SUPER BONITOS, TIERNOS Y ADORABLES, LASTIMA QUE LOS PERROS TENGAN MÁS SENTIMIENTOS :( <br>
+        <br>
+        <em>- Albert Einstein</em> </blockquote>
+      <p id="parrafo">NO SOLAMENTE LOS GATITOS SON ANIMALES EXÓTICOS, SI NO QUE TODO AQUEL ANIMAL QUE SEA CAPAZ DE ENTREGAR BUENAS ENERGÍAS A LAS PERSONAS, SON LO SUFICIENTE IMPORTANTE PARA LOS HUMANOS A CARGO DE ELLOS</p>
+
+      <script>
+        function Scolor(parrafo) {
+          var texto = "NO SOLAMENTE LOS GATITOS SON ANIMALES EXÓTICOS, SI NO QUE TODO AQUEL ANIMAL QUE SEA CAPAZ DE ENTREGAR BUENAS ENERGÍAS A LAS PERSONAS, SON LO SUFICIENTE IMPORTANTE PARA LOS HUMANOS A CARGO DE ELLOS";
+          var color = texto.fontcolor("green");
+          document.getElementById("parrafo").innerHTML = color;
+        }
+      </script>
+      <button onclick="Scolor()">Cambia Color de la Fuente</button>
+
+      <p><a class="btn" href="https://www.youtube.com/watch?v=vanP07y1Xgw">UN ENLACE CON GATITOS &raquo;</a></p>
+    </div>
+  </div>
+
+    <p>IÑOROS &copy;2016 a la vanguardia.<br>
+      Diseñado para <a href="#">NO PERROS GRAVES!</a> </p>
+  </footer>
+</div>
+<!-- /container -->
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/bootstrap-transition.js"></script>
+<script src="js/bootstrap-carousel.js"></script>
+<script src="js/bootstrap-alert.js"></script>
+<script src="js/bootstrap-modal.js"></script>
+<script src="js/bootstrap-dropdown.js"></script>
+<script src="js/bootstrap-scrollspy.js"></script>
+<script src="js/bootstrap-tab.js"></script>
+<script src="js/bootstrap-tooltip.js"></script>
+<script src="js/bootstrap-popover.js"></script>
+<script src="js/bootstrap-button.js"></script>
+<script src="js/bootstrap-collapse.js"></script>
+<script src="js/bootstrap-typeahead.js"></script>
+<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+<script src="js/jquery.smooth-scroll.min.js"></script>
+<script src="js/lightbox.js"></script>
+<script>
+$('.carousel').carousel({
+  interval: 5000
+})
+</script>
+</body>
+</html>
